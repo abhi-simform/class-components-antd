@@ -1,0 +1,28 @@
+@use "../../assets/scss/variables.scss" as *;
+
+.bestseller {
+  padding-block: 80rem;
+  &__intro {
+    text-align: center;
+    margin-bottom: 80rem;
+    &__tag {
+      font-size: 20rem;
+      line-height: 30rem;
+      letter-spacing: 0.2px;
+      margin-bottom: 10rem;
+      color: $text-secondary;
+    }
+    &__title {
+      font-size: 24rem;
+      line-height: 32rem;
+      font-weight: 700;
+      letter-spacing: 0.1px;
+      margin-bottom: 10rem;
+    }
+    &__description {
+      font-size: 14rem;
+      line-height: 20rem;
+      margin-bottom: 0;
+    }
+  }
+}

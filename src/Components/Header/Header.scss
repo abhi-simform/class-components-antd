@@ -1,0 +1,60 @@
+@use "../../assets/scss/variables.scss" as *;
+
+.header {
+  &__top {
+    background-color: $clr-dark;
+    color: $clr-white;
+    padding: 15rem 30rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    a {
+      color: $clr-white;
+      svg {
+        vertical-align: middle;
+        margin-right: 5rem;
+      }
+    }
+    .left {
+      display: flex;
+      gap: 30rem;
+    }
+    .right {
+      display: flex;
+      gap: 15rem;
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20rem 30rem;
+    font-weight: 700;
+    position: sticky;
+    top: 0;
+    .logo {
+      p {
+        font-size: 24rem;
+        line-height: 32rem;
+        letter-spacing: 0.1px;
+        color: $text-primary;
+        margin-bottom: 0;
+      }
+    }
+    .nav {
+      &__list {
+        display: flex;
+        align-items: center;
+        gap: 15rem;
+        margin-bottom: 0;
+      }
+      &__link {
+        font-size: 14rem;
+        line-height: 24rem;
+      }
+    }
+  }
+}

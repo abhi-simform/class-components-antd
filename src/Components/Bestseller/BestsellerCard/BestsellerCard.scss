@@ -1,0 +1,35 @@
+@use "../../../assets/scss/variables.scss" as *;
+
+.card {
+  text-align: center;
+  &__title {
+    font-size: 16rem;
+    line-height: 24rem;
+    font-weight: 700;
+    color: $text-primary;
+    margin-bottom: 10rem;
+  }
+  &__department {
+    font-size: 14rem;
+    line-height: 24rem;
+    font-weight: 700;
+    color: $text-secondary;
+    margin-bottom: 15rem;
+  }
+  &__price {
+    font-size: 14rem;
+    line-height: 24rem;
+    font-weight: 700;
+    margin-bottom: 15rem;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-bottom: 0;
+    &--old {
+      color: $text-muted;
+    }
+    &--new {
+      color: $clr-green;
+    }
+  }
+}

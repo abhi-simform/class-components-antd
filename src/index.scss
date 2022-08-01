@@ -1,0 +1,18 @@
+@import "assets/scss/variables.scss";
+@import "assets/scss/reset.scss";
+
+body {
+  color: $text-secondary;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: $text-primary;
+}
+
+.container {
+  max-width: min(100% - 40px, 1150px);
+  margin-inline: auto;
+}

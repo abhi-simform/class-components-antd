@@ -1,0 +1,36 @@
+@use "../../assets/scss/variables.scss" as *;
+
+.hero {
+  background-image: url("../../assets/img/hero-bg.jpg");
+  padding-block: 200rem 180rem;
+  background-size: cover;
+  color: $clr-white;
+  &__tag {
+    font-size: 16rem;
+    line-height: 24rem;
+    font-weight: 700;
+    margin-bottom: 35rem;
+    color: $clr-white;
+  }
+  h1 {
+    &.hero__title {
+      font-weight: 700;
+      font-size: 50rem;
+      line-height: 80rem;
+      margin-top: 0;
+      margin-bottom: 35rem;
+      letter-spacing: 0.2px;
+      color: $clr-white;
+    }
+  }
+  &__descirption {
+    font-size: 20rem;
+    line-height: 30rem;
+    margin-bottom: 35rem;
+    max-width: 375rem;
+    color: $clr-white;
+  }
+  &__button {
+    font-weight: 700;
+  }
+}
